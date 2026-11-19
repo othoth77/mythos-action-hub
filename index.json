@@ -1,6 +1,37 @@
 {
   "format": 1,
-  "generated": "2026-11-19T07:16:00Z",
-  "packages": [],
+  "generated": "2026-11-19T07:19:49Z",
+  "packages": [
+    {
+      "author": {
+        "github": "",
+        "name": "othoth77"
+      },
+      "category": "system",
+      "deprecated": "",
+      "id": "othoth77.session-ssh-demo-hub",
+      "kind": "python",
+      "license": "MIT",
+      "name": "Session SSH (démo Hub)",
+      "summary": "Session SSH (démo Hub) : action « Code Python » partagée depuis Mythos Controller. Ce qu'elle fait : le code semble lancer d'autres programmes, exécute du code",
+      "tags": [],
+      "versions": [
+        {
+          "app_compat": ">=1.2.0",
+          "content_sha256": "01620797a07f32ff5b19bb675c975e75137e9b4bfd25beaaf3af47506cdde47c",
+          "notes": "Première version.",
+          "permissions": [
+            "processes",
+            "run_python"
+          ],
+          "published": "2026-11-19",
+          "sha256": "8d843786625f4a72beabbdd2d5692df576fa3e181b0e4312634e3fa6f5fb9b57",
+          "size": 1381,
+          "version": "1.0.0",
+          "yanked": ""
+        }
+      ]
+    }
+  ],
   "repository": "othoth77/mythos-action-hub"
 }
