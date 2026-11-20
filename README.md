@@ -2,6 +2,13 @@
 
 Shared actions for Mythos Controller.
 
+> **This library is part of the Mythos Controller project.** Its source of truth is the
+> `hub-library/` folder of the main repository (`othoth77/mythos-controller`), reviewed and tested
+> with the application. This repository is the **public copy** that installed applications read and
+> where nominations are opened. Every change (publish, deprecate, withdraw, remove) is made in the
+> main project and copied here with `tools/hub_sync.py push`; a change made here first (for example
+> a publish from a clone of this repository) is brought back with `tools/hub_sync.py pull`.
+
 * `index.json` – what the application reads (generated; do not edit by hand).
 * `packages/<id>/<id>-<version>.mcaction` – one file per published version (never replaced).
 
